@@ -1,9 +1,9 @@
 /* Add application styles & imports to this file! */
 @import "bulma/css/bulma.css";
-@import "font-awesome/css/font-awesome.css";
+@import "font-awesome/css/font-awesome.min.css";
 
 body {
   background-color: #953e46;
-  color: #f4e3cf;
-  font-family: "Myriad Pro", sans-serif;
+  color: #f4e3cf !important;
+  font-family: myriad-pro, sans-serif;
 }

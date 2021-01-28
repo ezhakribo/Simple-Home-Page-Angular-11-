@@ -1,8 +1,19 @@
-.social {
-  font-size: 2rem;
-  font-weight: bold;
+.bg-color {
+  background-color: #f4e3cf !important;
 }
-.network {
-  font-size: 2rem;
-  font-weight: lighter;
+
+a {
+  color: #f4e3cf !important;
+}
+a:hover {
+  color: #e6c094 !important;
+}
+
+.v-top {
+  vertical-align: top !important;
+}
+
+.b-x {
+  border-top: 2px solid #f4e3cf;
+  border-bottom: 2px solid #f4e3cf;
 }

@@ -11,6 +11,7 @@ import { ActivityComponent } from "./activity/activity.component";
 import { PeopleComponent } from "./people/people.component";
 import { ChannelComponent } from "./channel/channel.component";
 import { DocumentComponent } from "./document/document.component";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -23,7 +24,8 @@ import { DocumentComponent } from "./document/document.component";
     ActivityComponent,
     PeopleComponent,
     ChannelComponent,
-    DocumentComponent
+    DocumentComponent,
+    FooterComponent
   ],
   bootstrap: [AppComponent]
 })
