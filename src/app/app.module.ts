@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
@@ -14,9 +15,10 @@ import { PeopleComponent } from "./people/people.component";
 import { ChannelComponent } from "./channel/channel.component";
 import { DocumentComponent } from "./document/document.component";
 import { FooterComponent } from "./footer/footer.component";
+import { TempService } from './temp.service';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, FontAwesomeModule],
+  imports: [BrowserModule, FormsModule, FontAwesomeModule, HttpClientModule],
   declarations: [
     AppComponent,
     HelloComponent,
@@ -29,7 +31,8 @@ import { FooterComponent } from "./footer/footer.component";
     DocumentComponent,
     FooterComponent
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [TempService]
 })
 export class AppModule {
   // constructor(private library: FaIconLibrary) {

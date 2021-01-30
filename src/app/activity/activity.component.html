@@ -1,191 +1,27 @@
 <div class="container pt-4 px-4 activity">
-	<div class="columns border is-clickable is-mobile">
+	<div *ngFor="let data of activity" class="columns border is-clickable is-mobile">
 		<div class="column is-3">
 			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
+				<img src="{{data.avatar}}">
 			</figure>
 		</div>
 		<div class="column w-0">
 			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
+			<span class="is-size-6 has-text-weight-bold">{{ data.name }} </span><span class="is-size-7">is {{ data.condition }}</span>
 			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+				{{ data.text }}
 			</div>
 			<nav class="level is-mobile">
 				<div class="level-left">
 					<a class="level-item">
 						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
-          </span>
-					</a>
-					<a class="level-item">
-						<span class="is-size-7">2 seconds ago</span>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<div class="columns border is-clickable is-mobile">
-		<div class="column is-3">
-			<figure class="image is-square">
-				<img src="https://www.colorhexa.com/f4e3cf.png">
-			</figure>
-		</div>
-		<div class="column w-0">
-			<!-- <button class="delete"></button> -->
-			<span class="is-size-6 has-text-weight-bold">John Smith </span><span class="is-size-7">commented</span>
-			<div class="is-size-6 txt-ellipsis">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
-				pellentesque tortor
-				vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-			</div>
-			<nav class="level is-mobile">
-				<div class="level-left">
-					<a class="level-item">
-						<span class="icon is-small">
-            <fa-icon [icon]="faComment"></fa-icon>
+              <ng-container [ngSwitch]="data.randIcon">
+                <fa-icon *ngSwitchCase="1" [icon]="faComment"></fa-icon>
+                <fa-icon *ngSwitchCase="2" [icon]="faVideo"></fa-icon>
+                <fa-icon *ngSwitchCase="3" [icon]="faStickyNote"></fa-icon>
+                <fa-icon *ngSwitchCase="4" [icon]="faLockOpen"></fa-icon>
+                <fa-icon *ngSwitchCase="5" [icon]="faHeart"></fa-icon>
+              </ng-container>
           </span>
 					</a>
 					<a class="level-item">
