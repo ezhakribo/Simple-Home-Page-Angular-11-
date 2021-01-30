@@ -12,10 +12,6 @@
   border: 2px solid;
 }
 
-.border-top {
-  border-top: 4px solid;
-}
-
 .channel {
   max-height: 123vh;
   overflow-y: scroll;

@@ -12,10 +12,6 @@
   border: 2px solid;
 }
 
-.border-top {
-  border-top: 4px solid;
-}
-
 .activity {
   max-height: 56vh;
   overflow-y: scroll;

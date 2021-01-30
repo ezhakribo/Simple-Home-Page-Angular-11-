@@ -20,6 +20,10 @@ a:hover {
   color: #e6c094 !important;
 }
 
+.border-bottom {
+  border-bottom: 4px solid;
+}
+
 .browse:hover {
   color: #e6c094 !important;
 }
