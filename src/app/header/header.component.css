@@ -1,14 +1,3 @@
-.bg-color {
-  background-color: #f4e3cf !important;
-}
-
-a {
-  color: #f4e3cf !important;
-}
-a:hover {
-  color: #e6c094 !important;
-}
-
 .v-top {
   vertical-align: top !important;
 }
@@ -16,4 +5,11 @@ a:hover {
 .b-x {
   border-top: 2px solid #f4e3cf;
   border-bottom: 2px solid #f4e3cf;
+}
+
+.scrollx-hidden {
+  overflow-x: scroll;
+}
+.scrollx-hidden::-webkit-scrollbar {
+  display: none;
 }

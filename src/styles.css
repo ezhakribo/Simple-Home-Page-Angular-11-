@@ -3,11 +3,47 @@
 @import "font-awesome/css/font-awesome.min.css";
 
 body {
-  background-color: #953e46;
+  background-color: #953e46 !important;
   color: #f4e3cf !important;
   font-family: myriad-pro, sans-serif;
 }
-
+.bg-color {
+  background-color: #f4e3cf !important;
+}
 .font-bg {
-  color: #953e46;
+  color: #953e46 !important;
+}
+a {
+  color: #f4e3cf !important;
+}
+a:hover {
+  color: #e6c094 !important;
+}
+
+.browse:hover {
+  color: #e6c094 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #953e46;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f4e3cf;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e6c094;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+  }
 }

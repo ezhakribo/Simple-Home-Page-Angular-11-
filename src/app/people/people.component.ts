@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { faDotCircle } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
-  selector: 'app-people',
-  templateUrl: './people.component.html',
-  styleUrls: ['./people.component.css']
+  selector: "app-people",
+  templateUrl: "./people.component.html",
+  styleUrls: ["./people.component.css"]
 })
 export class PeopleComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  faDotCircle = faDotCircle;
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

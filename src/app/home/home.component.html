@@ -5,31 +5,58 @@
 </div>
 <div class="columns">
 	<div class="column is-two-thirds">
-		<div class="columns">
-			<div class="column is-4">
-				<span class="is-size-4 has-text-weight-bold">Title</span>
+		<div class="columns is-mobile">
+			<div class="column is-4-desktop is-half-tablet">
+				<span class="is-size-4 has-text-weight-bold">Videos</span>
 			</div>
-			<div class="column is-4 has-text-right">
-				<span class="is-size-6">Browse all videos</span>
+			<div class="column is-4-desktop is-half-tablet has-text-right mt-3 is-clickable browse">
+				<span class="is-size-7">Browse all videos</span>
 			</div>
 		</div>
 		<app-video></app-video>
 	</div>
 	<div class="column">
+		<div class="columns is-mobile">
+			<div class="column is-4-desktop is-half-tablet">
+				<span class="is-size-4 has-text-weight-bold">Activity</span>
+			</div>
+			<div class="column is-8-desktop is-half-tablet has-text-right mt-3 is-clickable browse">
+				<span class="is-size-7">View timeline / Filter activities</span>
+			</div>
+		</div>
 		<app-activity></app-activity>
 	</div>
 </div>
-
 <div class="columns">
 	<div class="column is-two-thirds">
-		<div class="columns">
-			<app-people></app-people>
+		<div class="columns is-mobile">
+			<div class="column is-4-desktop is-half-tablet">
+				<span class="is-size-4 has-text-weight-bold">People</span>
+			</div>
+			<div class="column is-4-desktop is-half-tablet has-text-right mt-3 is-clickable browse">
+				<span class="is-size-7">View all</span>
+			</div>
 		</div>
-		<div class="columns">
-			<app-document></app-document>
+		<app-people></app-people>
+		<div class="columns is-mobile">
+			<div class="column is-4-desktop is-half-tablet">
+				<span class="is-size-4 has-text-weight-bold">Documents</span>
+			</div>
+			<div class="column is-4-desktop is-half-tablet has-text-right mt-3 is-clickable browse">
+				<span class="is-size-7">Browse all documents</span>
+			</div>
 		</div>
+		<app-document></app-document>
 	</div>
 	<div class="column">
+		<div class="columns is-mobile">
+			<div class="column is-4-desktop is-half-tablet">
+				<span class="is-size-4 has-text-weight-bold">Channels</span>
+			</div>
+			<div class="column is-8-desktop is-half-tablet has-text-right mt-3 is-clickable browse">
+				<span class="is-size-7">Browse all channels</span>
+			</div>
+		</div>
 		<app-channel></app-channel>
 	</div>
 </div>

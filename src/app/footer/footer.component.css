@@ -1,0 +1,7 @@
+.bg-color-none {
+  background-color: transparent !important;
+}
+
+.border-top {
+  border-top: 4px solid;
+}

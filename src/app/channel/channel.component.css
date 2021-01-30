@@ -1,0 +1,23 @@
+.w-0 {
+  width: 0;
+}
+
+.txt-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.border:hover {
+  border: 2px solid;
+}
+
+.border-top {
+  border-top: 4px solid;
+}
+
+.channel {
+  max-height: 123vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

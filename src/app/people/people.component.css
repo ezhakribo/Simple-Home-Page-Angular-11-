@@ -1,0 +1,22 @@
+.desc-main {
+  background: url("https://www.colorhexa.com/f4e3cf.png");
+  height: 100%;
+  padding-top: 14.5rem;
+}
+
+.desc-side {
+  background: url("https://www.colorhexa.com/f4e3cf.png");
+  height: 100%;
+  padding-top: 7rem;
+  padding-bottom: 1.5rem;
+}
+
+.desc-browse {
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+}
+
+.desc-browse > .columns {
+  height: 100%;
+}

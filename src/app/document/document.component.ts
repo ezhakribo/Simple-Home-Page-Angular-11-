@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
-  selector: 'app-document',
-  templateUrl: './document.component.html',
-  styleUrls: ['./document.component.css']
+  selector: "app-document",
+  templateUrl: "./document.component.html",
+  styleUrls: ["./document.component.css"]
 })
 export class DocumentComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  faPlusCircle = faPlusCircle;
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
